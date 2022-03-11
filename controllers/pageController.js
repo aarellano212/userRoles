@@ -38,6 +38,6 @@ module.exports.viewProfile = function(req, res) {
         res.redirect('/');
         return;
     }
-    res.render('pages/profile');
+    res.render('pages/dashboard');
 }
 
